@@ -8,7 +8,6 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
  * @author kdyzm
- * @date 2018-01-01
  */
 public class JacksonSerializer {
     private static final ObjectMapper objectMapper = new ObjectMapper();

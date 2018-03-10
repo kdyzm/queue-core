@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author kdyzm
- * @date 2018-01-01
  */
 @Component
 public class QueueCoreSpringUtils implements ApplicationContextAware {

@@ -23,7 +23,6 @@ import com.github.kdyzm.queue.core.utils.MQUtils;
 import com.github.kdyzm.queue.core.utils.QueueCoreSpringUtils;
 /**
  * @author kdyzm
- * @date 2018-01-01
  */
 public class QueueResourceHandler {
 

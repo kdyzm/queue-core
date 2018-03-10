@@ -1,9 +1,9 @@
-package com.wy.queue.core.utils;
+package com.github.kdyzm.queue.core.utils;
 
 import java.lang.reflect.Method;
 
-import com.wy.queue.core.annotation.Tag;
-import com.wy.queue.core.annotation.Topic;
+import com.github.kdyzm.queue.core.annotation.Tag;
+import com.github.kdyzm.queue.core.annotation.Topic;
 
 /**
  * @author kdyzm

@@ -1,4 +1,4 @@
-package com.wy.queue.core.factory;
+package com.github.kdyzm.queue.core.factory;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -10,10 +10,10 @@ import org.slf4j.LoggerFactory;
 import com.aliyun.openservices.ons.api.Message;
 import com.aliyun.openservices.ons.api.Producer;
 import com.aliyun.openservices.ons.api.SendResult;
-import com.wy.queue.core.api.MQConnection;
-import com.wy.queue.core.utils.JacksonSerializer;
-import com.wy.queue.core.utils.MQUtils;
-import com.wy.queue.core.utils.QueueCoreSpringUtils;
+import com.github.kdyzm.queue.core.api.MQConnection;
+import com.github.kdyzm.queue.core.utils.JacksonSerializer;
+import com.github.kdyzm.queue.core.utils.MQUtils;
+import com.github.kdyzm.queue.core.utils.QueueCoreSpringUtils;
 
 /**
  * @author kdyzm

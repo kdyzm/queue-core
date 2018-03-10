@@ -1,4 +1,4 @@
-package com.wy.queue.core.component;
+package com.github.kdyzm.queue.core.component;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;
@@ -16,11 +16,11 @@ import com.aliyun.openservices.ons.api.Message;
 import com.aliyun.openservices.ons.api.MessageListener;
 import com.aliyun.openservices.ons.api.ONSFactory;
 import com.aliyun.openservices.ons.api.PropertyKeyConst;
-import com.wy.queue.core.annotation.ConsumerAnnotation;
-import com.wy.queue.core.api.MQConnection;
-import com.wy.queue.core.utils.JacksonSerializer;
-import com.wy.queue.core.utils.MQUtils;
-import com.wy.queue.core.utils.QueueCoreSpringUtils;
+import com.github.kdyzm.queue.core.annotation.ConsumerAnnotation;
+import com.github.kdyzm.queue.core.api.MQConnection;
+import com.github.kdyzm.queue.core.utils.JacksonSerializer;
+import com.github.kdyzm.queue.core.utils.MQUtils;
+import com.github.kdyzm.queue.core.utils.QueueCoreSpringUtils;
 /**
  * @author kdyzm
  * @date 2018-01-01

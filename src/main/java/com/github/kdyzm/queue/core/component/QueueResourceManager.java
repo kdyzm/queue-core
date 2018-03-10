@@ -1,4 +1,4 @@
-package com.wy.queue.core.component;
+package com.github.kdyzm.queue.core.component;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,8 +11,8 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.annotation.DependsOn;
 import org.springframework.stereotype.Service;
 
-import com.wy.queue.core.annotation.QueueResource;
-import com.wy.queue.core.utils.MQUtils;
+import com.github.kdyzm.queue.core.annotation.QueueResource;
+import com.github.kdyzm.queue.core.utils.MQUtils;
 
 /**
  * @author kdyzm

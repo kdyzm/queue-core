@@ -1,4 +1,4 @@
-package com.wy.queue.core.annotation;
+package com.github.kdyzm.queue.core.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

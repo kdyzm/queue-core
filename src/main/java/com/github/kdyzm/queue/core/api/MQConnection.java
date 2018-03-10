@@ -1,4 +1,4 @@
-package com.wy.queue.core.api;
+package com.github.kdyzm.queue.core.api;
 
 /**
  * @author kdyzm

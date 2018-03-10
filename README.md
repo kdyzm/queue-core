@@ -2,12 +2,12 @@
 ---
 ## 一.添加依赖和添加MQ配置信息
 
-> **使用前必须import com.wy.queue.core.config.QueueConfig**
+> **使用前必须import com.github.kdyzm.queue.core.config.QueueConfig**
 
 ### 1.1 添加依赖
 ``` xml
 <dependency>
-	<groupId>com.wy.queue</groupId>
+	<groupId>com.github.kdyzm.queue</groupId>
 	<artifactId>queue-core</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 <dependency>
@@ -80,7 +80,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.wy.queue.core.factory.QueueResourceFactory;
+import com.github.kdyzm.queue.core.factory.QueueResourceFactory;
 
 @Configuration
 public class QueueConfig {
@@ -106,8 +106,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 
 import com.google.gson.Gson;
-import com.wy.queue.core.annotation.ConsumerAnnotation;
-import com.wy.queue.core.annotation.QueueResource;
+import com.github.kdyzm.queue.core.annotation.ConsumerAnnotation;
+import com.github.kdyzm.queue.core.annotation.QueueResource;
 
 @Controller
 @QueueResource
@@ -136,7 +136,7 @@ public class UserQueueResourceImpl implements UserQueueResource {
 ### 3.1 引入 api jar包依赖
 ### 3.2 import api jar包中定义的QueueConfig以及queue-core QueueConfig
 ``` java
-@Import({ org.server2.api.config.QueueConfig.class,com.wy.queue.core.config.QueueConfig.class })
+@Import({ org.server2.api.config.QueueConfig.class,com.github.kdyzm.queue.core.config.QueueConfig.class })
 ```
 ### 3.3 发送消息
 

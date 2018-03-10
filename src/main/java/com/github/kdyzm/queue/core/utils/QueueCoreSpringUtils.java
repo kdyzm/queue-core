@@ -1,4 +1,4 @@
-package com.wy.queue.core.utils;
+package com.github.kdyzm.queue.core.utils;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

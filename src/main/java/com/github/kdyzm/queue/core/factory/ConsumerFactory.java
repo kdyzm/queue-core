@@ -1,4 +1,4 @@
-package com.wy.queue.core.factory;
+package com.github.kdyzm.queue.core.factory;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 import com.aliyun.openservices.ons.api.Consumer;
 import com.aliyun.openservices.ons.api.ONSFactory;
 import com.aliyun.openservices.ons.api.PropertyKeyConst;
-import com.wy.queue.core.api.MQConnection;
+import com.github.kdyzm.queue.core.api.MQConnection;
 
 /**
  * @author kdyzm

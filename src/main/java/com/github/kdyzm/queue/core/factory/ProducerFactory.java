@@ -16,7 +16,6 @@ import com.github.kdyzm.queue.core.api.MQConnection;
 
 /**
  * @author kdyzm
- * @date 2018-01-01
  */
 @Component
 public class ProducerFactory {

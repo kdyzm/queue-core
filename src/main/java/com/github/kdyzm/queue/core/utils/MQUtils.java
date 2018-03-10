@@ -7,7 +7,6 @@ import com.github.kdyzm.queue.core.annotation.Topic;
 
 /**
  * @author kdyzm
- * @date 2018-01-01
  */
 public class MQUtils {
 

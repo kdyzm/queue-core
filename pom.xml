@@ -9,7 +9,7 @@
 
 	<name>queue-core</name>
 	<url>http://maven.apache.org</url>
-
+	<description>Access Ali message queue api</description>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<ons.version>1.7.0.Final</ons.version>

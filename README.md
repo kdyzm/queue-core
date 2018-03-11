@@ -1,4 +1,4 @@
-# 使用手册
+# 使用手册 [![Build Status](https://travis-ci.org/kdyzm/queue-core.svg?branch=master)](https://travis-ci.org/kdyzm/queue-core)
 ---
 ## 一.添加依赖和添加MQ配置信息
 

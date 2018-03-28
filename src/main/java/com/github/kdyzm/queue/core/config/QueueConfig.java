@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
  * @author kdyzm
  */
 @Configuration
-@ComponentScan(basePackages = { "com.wy.queue.core" })
+@ComponentScan(basePackages = { "com.github.kdyzm.queue.core" })
 public class QueueConfig {
 
 }

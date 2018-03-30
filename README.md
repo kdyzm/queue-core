@@ -9,7 +9,7 @@
 <dependency>
 	<groupId>com.github.kdyzm.queue</groupId>
 	<artifactId>queue-core</artifactId>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 <dependency>
 ```
 ### 1.2 添加MQ配置信息

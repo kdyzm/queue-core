@@ -15,7 +15,7 @@
 		<ons.version>1.7.0.Final</ons.version>
 		<spring.version>4.2.4.RELEASE</spring.version>
 		<slf4j.version>1.7.21</slf4j.version>
-		<jackson.version>2.6.3</jackson.version>
+		<jackson.version>2.9.10.1</jackson.version>
 	</properties>
 
 
